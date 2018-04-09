@@ -4,7 +4,7 @@
  * Edit Log
  * @copyright (c) 2016 towen - [towenpa@gmail.com]
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.2.0] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -18,25 +18,25 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'VIEW_EDIT_LOG'			=> ' <a href="%1s">(Editions log)</a>',
-    'NO_EDIT_LOG'			=> 'Do not save editing history',
+    'VIEW_EDIT_LOG'			=> ' <a href="%1s">(Log de edições)</a>',
+    'NO_EDIT_LOG'			=> 'Não salve o histórico de edição',
 
-    'COMPARE_VERSIONS'			=> 'Compare versions',
+    'COMPARE_VERSIONS'			=> 'Comparar versões',
 
-    'EDIT_LOG'			=> 'Editions log',
+    'EDIT_LOG'			=> 'Log de edições',
     'POST_TITLE'			=> 'Post',
 
-    'USER'		=> 'User',
-    'EDIT_TIME'				=> 'Edition time',
-    'EDIT_REASON'	=> 'Edition reason',
+    'USER'		=> 'Usuário',
+    'EDIT_TIME'				=> 'Hora da edição',
+    'EDIT_REASON'	=> 'Razão da edição',
 
-    'ORIGINAL_MESSAGE'			=> 'Original message',
-    'TEXT_CHANGES'	=> 'Changes in the text',
+    'ORIGINAL_MESSAGE'			=> 'Mensagem original',
+    'TEXT_CHANGES'	=> 'Mudanças no texto',
 
-    'EDITLOG_BAD_OPTIONS_COUNT'			=> 'You must select two versions to make a comparison.',
-    'NO_POST_LOG'			=> 'This message has not saved edits in the history.<br /><br /> <a href="%1s">Back to message</a>',
-    'EDITLOG_NO_AUTH'			=> 'You are not authorized to view the edit history of this message.<br /><br /> <a href="%1s">Back to message</a>',
-    'EDITLOG_NO_DELETE_AUTH'	=> 'You are not authorized to delete history editions entries.<br /><br /> <a href="%1s">Back</a>',
-    'EDITLOG_DELETE_SUCCESS'	=> 'Entries were deleted from history.<br /><br /> <a href="%1s">Back</a>',
-    'LOG_EDITLOG_DELETE_SUCCESS'	=> '<strong>Deleted editions history entry </strong><br />» <a href="%1s">%s2s</a>',
+    'EDITLOG_BAD_OPTIONS_COUNT'			=> 'Você deve selecionar duas versões para fazer uma comparação.',
+    'NO_POST_LOG'			=> 'Esta mensagem não salvou as edições no histórico.<br /><br /> <a href="%1s">Voltar para a mensagem</a>',
+    'EDITLOG_NO_AUTH'			=> 'Você não está autorizado a visualizar o histórico de edição desta mensagem.<br /><br /> <a href="%1s">Voltar para a mensagem</a>',
+    'EDITLOG_NO_DELETE_AUTH'	=> 'Você não está autorizado a deletar entradas de edições do histórico.<br /><br /> <a href="%1s">Voltar</a>',
+    'EDITLOG_DELETE_SUCCESS'	=> 'As entradas foram deletadas do histórico.<br /><br /> <a href="%1s">Voltar</a>',
+    'LOG_EDITLOG_DELETE_SUCCESS'	=> '<strong>Entrada do histórico de edições deletadas </strong><br />» <a href="%1s">%s2s</a>',
 ));
