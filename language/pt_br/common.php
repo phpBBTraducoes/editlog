@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
     'EDIT_REASON'	=> 'Razão da edição',
 
     'ORIGINAL_MESSAGE'			=> 'Mensagem original',
-    'TEXT_CHANGES'	=> 'Mudanças no texto',
+    'TEXT_CHANGES'	=> 'Alterações no texto',
 
     'EDITLOG_BAD_OPTIONS_COUNT'			=> 'Você deve selecionar duas versões para fazer uma comparação.',
     'NO_POST_LOG'			=> 'Esta mensagem não salvou as edições no histórico.<br /><br /> <a href="%1s">Voltar para a mensagem</a>',
